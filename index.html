@@ -1,0 +1,270 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <title>SKY | Allen Tiempo</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg py-3 fixed-top" style="background-color: black;">
+        <div class="container">
+            <a href="#" class="navbar-brand fw-bold h1">SKY</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#usecase" class="nav-link">Use Cases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#specs" class="nav-link">Specs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- showcase -->
+    <section class="p-5 text-light pt-lg-5 text-sm-start text-center bac-image">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1 class="fw-bold">Transportation Reinvented</h1>
+                    <p class="lead">
+                        Atom is a new kind of cloud-based logging system designed for applications and developers
+                    </p>
+                    <div class="d-sm-flex align-items-center justify-content-between">
+                        <div>
+                            <button class="btn btn-info btn-md text-white">
+                                SEE IT IN ACTION
+                            </button>
+                            <button type="button" class="btn text-light btn-outline-secondary" style="background-color: transparent;">
+                            LEARN MORE
+                        </button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="images/drone.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="p-5 text-light about" id="specs">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <img class="img-fluid w-100 d-none d-sm-block" src="images/blackdrone.png" alt="" />
+                </div>
+                <div class="col-md">
+                    <h1>About <span class="text-info">Skyways</span>
+                    </h1>
+                    <p class="lead text-start">The genesis of Skyways in early 2017 after years of frustration with the traffic in Silicon Valley. Why are we all stuck on the ground, bumper to bumper?</p>
+                    <p class="lead text-start">With tremendous growth in unmanned aviation along with new advances in energy storage and electric propulsion, an opportunity was born to create a new form of transportation.</p>
+                </div>
+            </div>
+            <div class="row text-center pt-5 g-4">
+                <div class="col-md">
+                    <span class="num">65</span> <span class="unit">miles </span> <br>Range (can be extended)
+                </div>
+                <div class="col-md">
+                    <span class="num">65</span> <span class="unit">mph </span> <br>Max Cruise Speed
+                </div>
+                <div class="col-md">
+                    <span class="num">44</span> <span class="unit">lbs </span> <br>Payload Mass
+                </div>
+                <div class="col-md">
+                    <span class="num">6.5</span> <span class="unit">gal </span> <br>Payload Volume
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timer -->
+    <section class="p-5 text-center text-light timer">
+        <div class="container">
+            <h1>
+                Sale <span class="text-info">Now on</span>
+            </h1>
+            <p class="lead">
+                Do you want to try our Pro Plan but are not ready to pay for it? Enjoy the benefits of special offer for our clients. Get pro plan at the price of standard. Offer is valid until February 11.
+            </p>
+            <div class="row text-center px-5 mt-3 g-4">
+                <div class="col-md">
+                    <span class="time">4</span> <br> <span class="fs-6 lead"> DAYS</span>
+                </div>
+                <div class="col-md">
+                    <span class="time">0</span> <br> <span class="fs-6 lead"> HOURS</span>
+                </div>
+                <div class="col-md">
+                    <span class="time">44</span> <br> <span class="fs-6 lead"> MINUTES</span>
+                </div>
+                <div class="col-md">
+                    <span class="time">38</span> <br> <span class="fs-6 lead"> SECONDS</span>
+                </div>
+            </div>
+            <div class="pt-4">
+                <a href="#"><i class="bi bi-facebook text-light mx-2" style='font-size: 26px;'></i>
+                </a>
+                <a href="#"><i class="bi bi-twitter text-light mx-2" style='font-size: 26px;'></i>
+                </a> 
+                <a href="#"><i class="bi bi-google text-light mx-2" style='font-size: 26px;'></i>
+                </a>
+                <a href="#"><i class="bi bi-instagram text-light mx-2" style='font-size: 26px;'></i>
+                </a>  
+                <a href="#"><i class="bi bi-youtube text-light mx-2" style='font-size: 26px;'></i>
+                </a>    
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Case -->
+    <section id="usecase" class="p-5 text-center text-light text-sm-start usecase">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <img class="img-fluid w-50 d-none d-sm-block" src="images/drone.png" alt="" />
+                <div><div class="box"></div></div>
+                <div>
+                    <h1>
+                        Use <span class="text-info">Cases</span>
+                    </h1>
+                    <h5>
+                        Ship-to-shore, shore-to-ship
+                    </h5>
+                    <p class="lead fs-6">
+                        Take-off and land anywhere, literally. Fly low and stay under the radar.
+                    </p>
+                    <h5>
+                       Reduce load carried by soldiers
+                    </h5>
+                    <p class="lead fs-6">
+                        Fly over terrain and explosives. Resupply remote troops with MREs, batteries and medical supplies.
+                    </p>
+                    <h5>
+                        Offshore platforms
+                    </h5>
+                    <p class="lead fs-6">
+                        On-demand resupply capability to remote platforms. Both ways.
+                    </p>
+                    <button type="button" class="btn text-light btn-outline-secondary" style="background-color: transparent;">
+                        GET IN TOUCH
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map & Message -->
+
+    <section class="bg-dark text-center text-light text-md-start p-5" id="contact">
+        <div class="container">
+            <div class="row g-4 d-flex justify-content-center">
+                <div class="col-md-5">
+                    <h2 class="mb-4">Come see us & <br> <span class="text-info">get in touch!</span></h2>
+                    <p class="lead fs-6">
+                        <span class="fw-bold">Address:</span> 6920 Lee Manor Cove, USA
+                    </p>
+                    <p class="lead fs-6">
+                        <span class="fw-bold">Contact:</span> info@sky.com
+                    </p>
+                    <div id="map" class="d-none d-md-block"></div>        
+                </div>
+                <div class="col-md-5">
+                    <div class="card text-white">
+                        <div class="card-body text-center p-5">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control bg-dark text-white" id="textArea_Name" placeholder="name@example.com">
+                                <label for="textArea_Name">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control bg-dark text-white" id="textArea_Email" placeholder="name@example.com">
+                                <label for="textArea_Email">Email Address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control bg-dark text-white" placeholder="Leave a comment here" id="textArea_Message" style="height: 100px; resize: none;"></textarea>
+                                <label for="textArea_Message">Type a message...</label>
+                            </div>
+                            <button class="btn btn-info mt-3 text-white w-100">SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 position-relative" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm text-center text-md-start">
+                    <a href="#" class="fw-bold navbar-brand fs-2 text-white">SKY</a>
+                </div>
+                <div class="col-md d-none d-md-block">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link text-white">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#specs" class="nav-link text-white">Specs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link text-white">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link text-white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="color: white;">
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1" style="color: white;"></i>
+            </a>
+            <div class="row">
+                <div class="col-md d-none d-md-block">
+                    <p class="text-white fs-6">
+                        &copy;Website created by <span class="fw-bold">Allen Tiempo</span>
+                    </p>
+                </div>
+                <div class="col-md text-center text-md-end">
+                    <p class="text-white">
+                        All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+        mapboxgl.accessToken =
+          'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+        var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11',
+          center: [-71.060982, 42.35725],
+          zoom: 18,
+        })
+      </script>
+</body>
+</html>
